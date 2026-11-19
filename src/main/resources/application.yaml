@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Configuration-Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/anshulnew19-java/Configuration-Server.git
+
+server:
+  port: 1111
